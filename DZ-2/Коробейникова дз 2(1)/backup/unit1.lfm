@@ -1,0 +1,145 @@
+object Form1: TForm1
+  Left = 1364
+  Height = 436
+  Top = 460
+  Width = 621
+  Caption = 'Form1'
+  ClientHeight = 436
+  ClientWidth = 621
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 27
+    Height = 24
+    Top = 64
+    Width = 208
+    Caption = 'Введите значение a:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Edit1: TEdit
+    Left = 249
+    Height = 33
+    Top = 56
+    Width = 95
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Label2: TLabel
+    Left = 22
+    Height = 24
+    Top = 152
+    Width = 208
+    Caption = 'Введите значение b:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 248
+    Height = 33
+    Top = 152
+    Width = 95
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 24
+    Top = 248
+    Width = 206
+    Caption = 'Введите значение x:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit3: TEdit
+    Left = 248
+    Height = 33
+    Top = 248
+    Width = 95
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 424
+    Height = 70
+    Top = 32
+    Width = 159
+    Caption = 'Вычислить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Sitka Small Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 420
+    Height = 70
+    Top = 183
+    Width = 159
+    Caption = 'Очистить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Sitka Small Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Label4: TLabel
+    Left = 22
+    Height = 24
+    Top = 328
+    Width = 202
+    Caption = 'Значение функции f:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit4: TEdit
+    Left = 249
+    Height = 33
+    Top = 328
+    Width = 95
+    TabOrder = 5
+  end
+  object BitBtn1: TBitBtn
+    Left = 420
+    Height = 70
+    Top = 324
+    Width = 156
+    Caption = 'Выход'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Sitka Small Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 6
+  end
+end

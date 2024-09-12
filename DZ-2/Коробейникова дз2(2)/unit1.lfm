@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 262
+  Height = 510
+  Top = 212
+  Width = 696
+  Caption = 'Form1'
+  ClientHeight = 510
+  ClientWidth = 696
+  DesignTimePPI = 144
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 52
+    Height = 25
+    Top = 56
+    Width = 235
+    Caption = 'Введите радиус окружности:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 336
+    Height = 33
+    Top = 56
+    Width = 76
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 336
+    Height = 33
+    Top = 152
+    Width = 76
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 336
+    Height = 33
+    Top = 248
+    Width = 76
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 336
+    Height = 33
+    Top = 336
+    Width = 76
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 52
+    Height = 50
+    Top = 136
+    Width = 224
+    Caption = 'Введите отношение сторон'#13#10'прямоугольника:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 52
+    Height = 25
+    Top = 240
+    Width = 232
+    Caption = 'Диагональ прямоугольника:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 48
+    Height = 50
+    Top = 321
+    Width = 227
+    Caption = 'Площадь прямоугольника, '#13#10'вписанного в окружность:'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 478
+    Height = 76
+    Top = 40
+    Width = 176
+    Caption = 'Вычислить'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 480
+    Height = 76
+    Top = 216
+    Width = 176
+    Caption = 'Очистить'
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+  object BitBtn1: TBitBtn
+    Left = 480
+    Height = 76
+    Top = 396
+    Width = 174
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 6
+  end
+  object Panel1: TPanel
+    Left = 728
+    Height = 75
+    Top = 296
+    Width = 255
+    Caption = 'Panel1'
+    TabOrder = 7
+  end
+end
